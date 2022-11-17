@@ -9,6 +9,7 @@ export default function Home() {
         <div className={styles.Content}>SOME CONTENT</div>
         <div className={styles.Close}>X</div>
       </label>
+
     </div>
   )
 }

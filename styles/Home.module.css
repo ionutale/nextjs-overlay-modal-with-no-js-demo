@@ -10,7 +10,7 @@
 
 .OpenButton {
   padding: 5px 10px;
-  background: yellowgreen;
+  background: rgb(0, 0, 0);
   color: #fff;
   position: absolute;
   left: 50%;
@@ -22,7 +22,7 @@
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: hotpink;
+  background: rgb(238, 226, 213);
   top: 0;
   left: 0;
   display: flex;
