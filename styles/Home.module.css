@@ -1,0 +1,49 @@
+.Container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+.ShowModalCTA {
+  display: none;
+}
+
+.OpenButton {
+  padding: 5px 10px;
+  background: yellowgreen;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Content {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: hotpink;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  display: none;
+}
+
+.Close {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.ShowModalCTA:checked+div+.Content {
+  display: flex;
+}
+
+.ShowModalCTA:checked+div+.Content+.Close {
+  display: block;
+}
