@@ -5,9 +5,9 @@ export default function Home() {
     <div className={styles.Container}>
       <label>
         <input className={styles.ShowModalCTA} type="checkbox" />
-        <div className={styles.OpenButton}>OPEN</div>
+        <h3 className={styles.OpenButton}>See More</h3>
         <div className={styles.Content}>SOME CONTENT</div>
-        <div className={styles.Close}>X</div>
+        <div className={styles.Close}>x</div>
       </label>
 
     </div>
